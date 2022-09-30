@@ -184,3 +184,6 @@ vi:
         end_time: Thời gian kết thúc
         room: Phòng
         submit: Xác nhận
+      error_message:
+        form_err: Trong biểu mẫu có
+        error: "lỗi sau: "
