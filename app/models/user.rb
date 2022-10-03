@@ -20,4 +20,6 @@ class User < ApplicationRecord
           uniqueness: true
 
   has_secure_password
+
+  scope :sort_list, ->{order :user_name}
 end
